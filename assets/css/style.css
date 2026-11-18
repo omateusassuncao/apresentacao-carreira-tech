@@ -488,6 +488,21 @@ blockquote.decision {
 [data-layout="tools"] h2 { font-size: calc(var(--u) * 3.8); }
 [data-layout="tools"] .takeaway { margin-top: calc(var(--u) * .8); font-size: calc(var(--u) * 1.7); }
 
+/* Problemas da IA: card com "o que fazer" no rodapé */
+.card.tool.risk { grid-template-rows: auto auto 1fr; }
+.card.tool.risk .tool-icon { grid-row: span 3; }
+.card.tool.risk .risk-fix {
+  grid-column: 2;
+  align-self: end;
+  margin-top: calc(var(--u) * .4);
+  padding-top: calc(var(--u) * .7);
+  border-top: 1px dashed var(--border);
+  font-size: calc(var(--u) * 1.4);
+  font-weight: 600;
+  color: var(--accent-2);
+}
+.card.tool.risk .risk-fix::before { content: "→ "; }
+
 /* Antes × hoje: três cards lado a lado */
 .compare {
   display: grid;
