@@ -652,6 +652,37 @@ blockquote.decision {
 .compare:has(> :nth-child(4)) .card.then-now p { font-size: calc(var(--u) * 1.55); }
 .compare:has(> :nth-child(4)) .tn-now span { display: block; margin: 0 0 calc(var(--u) * .3); }
 
+/* CEIC: mosaico em 3 colunas, fotos inteiras (sem corte) e centralizadas */
+[data-layout="ceic"] h2 { font-size: calc(var(--u) * 3.8); }
+.ceic-mosaic {
+  display: grid;
+  grid-template-columns: 24.4fr 25.6fr 33fr;
+  align-items: center;
+  gap: calc(var(--u) * 1.4);
+  margin-top: calc(var(--u) * .4);
+}
+.ceic-col { display: flex; flex-direction: column; gap: calc(var(--u) * 1.4); min-width: 0; }
+.photo.ceic-photo { position: relative; }
+.photo.ceic-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: none;
+  object-fit: contain;
+  border-radius: calc(var(--u) * 1);
+}
+.photo.ceic-photo figcaption {
+  position: absolute;
+  left: calc(var(--u) * .8);
+  bottom: calc(var(--u) * .8);
+  padding: calc(var(--u) * .3) calc(var(--u) * .9);
+  border-radius: 999px;
+  background: rgba(11, 15, 20, .78);
+  color: #e6edf3;
+  font-size: calc(var(--u) * 1.2);
+  backdrop-filter: blur(4px);
+}
+
 /* Crises: grade 2×2 de cards curtos */
 .crises {
   display: grid;
@@ -1056,6 +1087,8 @@ figcaption {
   .hobbies { grid-template-columns: 1fr 1fr; }
   .crises { grid-template-columns: 1fr; }
   .compare { grid-auto-flow: row; grid-template-columns: 1fr; }
+  .ceic-mosaic { grid-template-columns: 1fr; }
+  .photo.ceic-photo figcaption { font-size: calc(var(--u) * 1.6); }
   .tools { grid-template-columns: 1fr; }
   .columns.cols-3 { grid-template-columns: 1fr; }
   .tips { grid-template-columns: 1fr; }
