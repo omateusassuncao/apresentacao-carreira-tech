@@ -125,7 +125,7 @@ Queda global do Microsoft 365. Os dados vêm da imprensa, porque a matéria da U
 | 1 | Capa | `cover` | — |
 | 2 | Olá, eu sou o Mateus Vieira (quem sou eu + hobbies + família; selo 📢 com foto surpresa) | `about` | Quem sou eu / Minha família (5 min) |
 | 3 | Quando comecei a trabalhar? | `timeline` | Quem sou eu |
-| 4 | 2016: como era trabalhar? (sem home office, telefone fixo, sem IA × hoje) | `compare` | Começar a trabalhar (5 min) |
+| 4 | 2016: como era trabalhar? (sem home office, telefone fixo, sem IA, roupa social × hoje) | `compare` | Começar a trabalhar (5 min) |
 | 5 | Meu trabalho e a virada (o que eu fazia + como resolvi mudar + a decisão) | `columns` + citação | Começar a trabalhar / Transição |
 | 6 | Eu mudei a trajetória da minha carreira (parcial, até 2023; capivara noiva entre 2016 e 2020) | `timeline` | Transição de carreira |
 | 7 | Eu mudei a trajetória da minha carreira (completa) | `timeline` | Transição de carreira |
