@@ -167,6 +167,7 @@ code {
   font-size: calc(var(--u) * 1.8);
   color: var(--muted);
 }
+[data-layout~="cover"] .author strong { color: var(--text); font-size: 1.15em; }
 [data-layout~="cover"]::after {
   content: "";
   position: absolute;
