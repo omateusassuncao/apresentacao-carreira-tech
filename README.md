@@ -1,4 +1,4 @@
-# Carreira Tech e seu futuro!
+# Carreira Tech, IA e seu futuro!
 
 Palestra para alunos do ensino médio sobre carreira em tecnologia.
 
