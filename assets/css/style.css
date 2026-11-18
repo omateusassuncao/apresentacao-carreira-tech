@@ -552,6 +552,24 @@ blockquote.decision {
 }
 @media (prefers-reduced-motion: reduce) { .capy-spark { animation: none; } }
 
+/* Capivara comemorando no encerramento */
+.capy.capy-party {
+  right: auto;
+  left: calc(var(--u) * 21);
+  bottom: calc(var(--u) * 2.6);
+  width: calc(var(--u) * 10);
+  z-index: 2;
+}
+.capy-confetti { animation: capy-confetti 1.8s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+.capy-confetti:nth-of-type(2n) { animation-delay: .6s; }
+.capy-confetti:nth-of-type(3n) { animation-delay: 1.2s; }
+@keyframes capy-confetti {
+  0%, 100% { opacity: .35; translate: 0 0; }
+  50% { opacity: 1; translate: 0 -2px; }
+}
+@media (prefers-reduced-motion: reduce) { .capy-confetti { animation: none; } }
+@media print { .capy-confetti { animation: none; } }
+
 /* Timeline com descrições mais longas */
 .timeline-rich { gap: calc(var(--u) * 2); }
 .timeline-rich .tl-role { font-size: calc(var(--u) * 1.8); }
@@ -1051,6 +1069,7 @@ figcaption {
   .timeline li { padding-top: 0; }
   .timeline li::before { left: calc(var(--u) * -3); top: calc(var(--u) * .4); }
   .timeline .capy.capy-ring { left: auto; right: 0; top: calc(var(--u) * 1.5); width: calc(var(--u) * 3.5); }
+  .capy.capy-party { left: auto; right: calc(var(--u) * 4); bottom: auto; top: calc(var(--u) * 4); width: calc(var(--u) * 9); }
   .tl-role { font-size: calc(var(--u) * 2.1); }
   .tl-org { font-size: calc(var(--u) * 1.8); }
   [data-layout~="cover"]::after { left: calc(var(--u) * 4); }
