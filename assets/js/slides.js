@@ -148,6 +148,37 @@
     });
   });
 
+  /* ---------- "Clique e segure": mostra uma foto enquanto o botão está pressionado ---------- */
+  var peekEls = document.querySelectorAll('[data-peek]');
+  if (peekEls.length) {
+    var overlay = document.createElement('div');
+    overlay.className = 'peek-overlay';
+    overlay.setAttribute('aria-hidden', 'true');
+    var peekImg = document.createElement('img');
+    peekImg.alt = '';
+    overlay.appendChild(peekImg);
+    document.body.appendChild(overlay);
+
+    var hidePeek = function () { overlay.classList.remove('is-visible'); };
+
+    Array.prototype.forEach.call(peekEls, function (el) {
+      new Image().src = el.getAttribute('data-peek'); // pré-carrega para aparecer na hora
+      el.addEventListener('pointerdown', function (e) {
+        if (e.button !== 0) return;
+        e.preventDefault();
+        peekImg.src = el.getAttribute('data-peek');
+        peekImg.alt = el.getAttribute('data-peek-alt') || '';
+        overlay.classList.add('is-visible');
+        if (el.setPointerCapture) el.setPointerCapture(e.pointerId);
+      });
+      ['pointerup', 'pointercancel', 'lostpointercapture'].forEach(function (type) {
+        el.addEventListener(type, hidePeek);
+      });
+      el.addEventListener('contextmenu', function (e) { e.preventDefault(); }); // toque longo no celular
+    });
+    window.addEventListener('blur', hidePeek);
+  }
+
   /* ---------- Eventos ---------- */
   btnNext.addEventListener('click', next);
   btnPrev.addEventListener('click', prev);
