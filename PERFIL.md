@@ -39,6 +39,7 @@ depois reflita no `index.html`.
 |---|---|---|---|---|
 | fev/2026 – atual | Engenheiro de Software Sr. · Tech Lead | Itaú Unibanco | São Paulo | — |
 | jan/2024 – mar/2026 | Engenheiro de Software Sr. · Dynamics 365 | Itaú Unibanco | São Paulo | — |
+| 2023 – jan/2024 | Coordenador de Operações (Global Solutions · Operations Manager) | AB InBev | Campinas | Informado pelo autor; no PDF do LinkedIn aparece como "Global Solutions - Operations Manager", sem datas |
 | ago/2022 – jan/2024 | Power Platform Tech Lead · Global CoE Power Platform | AB InBev | Campinas | Liderava times DevOps entregando e operando aplicações e relatórios de BI; especialista do CoE ajudando times da ABI em projetos Power Platform |
 | mar/2022 – ago/2022 | Global Solutions · Innovation Specialist | AB InBev | Campinas | Desenvolvedor e consultor Power Platform; membro do C4E (Center for Enablement) |
 | set/2021 – mar/2022 | Power Platform Developer | Mout'S Soluções em TI (alocado na AB InBev) | Campinas | Soluções no CoE de Power Platform para usuários finais e automação de processos; treinamentos |
