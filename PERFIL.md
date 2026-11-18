@@ -59,6 +59,13 @@ depois reflita no `index.html`.
 - Power Platform / Dynamics 365 desde dez/2020 → **~6 anos**.
 - AB InBev (incluindo a alocação pela Mout'S): set/2021–jan/2024 → ~2a5m.
 
+## Projetos (informados pelo autor)
+
+- Aplicação de gestão de Leads para o Consultor de Seguros PJ (Itaú Unibanco)
+- Inclusão de ofertas de Seguro Transações nos apps mobile (Itaú Unibanco)
+
+Projetos do Itaú citados na palestra: a **ia.i** (inteligência artificial do Itaú, disponível nos apps) e o **ICTi** — Instituto de Ciência e Tecnologia Itaú (https://www.icti.org.br/quem-somos/o-instituto/).
+
 ## Formação acadêmica
 
 | Período | Curso | Instituição |
@@ -123,7 +130,7 @@ Queda global do Microsoft 365. Os dados vêm da imprensa, porque a matéria da U
 | 6 | Da engenharia ao código | `timeline` | Transição de carreira |
 | 7 | Até aqui | `stats` | Transição de carreira |
 | 8 | Como é desenvolver software hoje? (Claude Code, agentes autônomos, AWS + Claude, automações, low-code, humano no comando) | `tools` | Desenvolvimento hoje |
-| 9 | Como é o meu trabalho hoje? (dia a dia + limite de tokens) | `columns` | Trabalho hoje |
+| 9 | Como é o meu trabalho hoje? (o que um Tech Lead faz + projetos em que participei + Itaú também faz) | `columns` (3) | Trabalho hoje |
 | 10 | Vamos criar um app agora! | `code` + Copiar | Interação: prompt ao vivo |
 | 11 | Mas e… os problemas da IA? (meio ambiente, alucinações, deepfakes, privacidade, viés, pensar por você) | `tools` | IA: problemas e meio ambiente |
 | 12 | Mas e… a bolha da IA? É real? (timeline 1999→2000, 2000, 2008, hoje, 20?? + "a história é cíclica") | `timeline` | IA: bolha e crises do passado |

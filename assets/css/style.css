@@ -581,6 +581,17 @@ blockquote.decision {
 .card.tip li b { color: var(--accent); font-weight: 700; }
 [data-layout="tips"] h2 { font-size: calc(var(--u) * 3.8); }
 
+/* Colunas em três */
+.columns.cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: calc(var(--u) * 1.8); }
+.columns.cols-3 .card { padding: calc(var(--u) * 2) calc(var(--u) * 2.2); }
+.columns.cols-3 .card h3 { font-size: calc(var(--u) * 2); margin-bottom: calc(var(--u) * .5); }
+.columns.cols-3 .bullets { font-size: calc(var(--u) * 1.7); gap: calc(var(--u) * .9); }
+.columns.cols-3 .bullets li { padding-left: calc(var(--u) * 2.4); line-height: 1.35; }
+.card .bullets a { color: inherit; text-decoration: underline; text-decoration-color: var(--accent); text-underline-offset: .2em; }
+.card .bullets a strong { color: var(--accent); }
+.card .bullets a::after { content: " ↗"; color: var(--accent); }
+.card .bullets a:hover strong { color: var(--accent-2); }
+
 /* Antes × hoje: três cards lado a lado */
 .compare {
   display: grid;
@@ -1019,6 +1030,7 @@ figcaption {
   .crises { grid-template-columns: 1fr; }
   .compare { grid-template-columns: 1fr; }
   .tools { grid-template-columns: 1fr; }
+  .columns.cols-3 { grid-template-columns: 1fr; }
   .tips { grid-template-columns: 1fr; }
   .card.tip li { font-size: calc(var(--u) * 1.8); }
   .timeline-rich .tl-role { font-size: calc(var(--u) * 2.1); }
