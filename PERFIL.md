@@ -116,7 +116,7 @@ Queda global do Microsoft 365. Os dados vêm da imprensa, porque a matéria da U
 
 ---
 
-## Palestra: "Carreira Tech e seu futuro!"
+## Palestra: "Carreira Tech, IA e seu futuro!"
 
 **Público:** alunos do ensino médio. Tom leve, sem jargão; termos técnicos explicados nas notas (tecla `P`).
 
