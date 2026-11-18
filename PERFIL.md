@@ -125,7 +125,7 @@ Queda global do Microsoft 365. Os dados vêm da imprensa, porque a matéria da U
 | 8 | Como é desenvolver software hoje? (Claude Code, agentes autônomos, AWS + Claude, automações, low-code, humano no comando) | `tools` | Desenvolvimento hoje |
 | 9 | Como é o meu trabalho hoje? (dia a dia + limite de tokens) | `columns` | Trabalho hoje |
 | 10 | Vamos criar um app agora! | `code` + Copiar | Interação: prompt ao vivo |
-| 11 | Mas e… o meio ambiente? | `columns` | IA: meio ambiente |
+| 11 | Mas e… os problemas da IA? (meio ambiente, alucinações, deepfakes, privacidade, viés, pensar por você) | `tools` | IA: problemas e meio ambiente |
 | 12 | Mas e… a bolha da IA? É real? (IA hoje, bug do milênio, bolha da internet, 2008) | `crises` | IA: bolha e crises do passado |
 | 13 | Crises vêm e vão. O preparo fica. | `steps` | Novas tecnologias e crises sempre virão → estudar |
 | 14 | Perguntas? | `section` | Perguntas |
