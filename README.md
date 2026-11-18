@@ -76,3 +76,15 @@ assets/img/           # imagens
 PERFIL.md             # dados profissionais do autor e mapa dados → slides
 .nojekyll             # o Pages serve os arquivos como estão
 ```
+
+## Cache do navegador
+
+O GitHub Pages pede para o navegador guardar CSS, JS e imagens por alguns minutos.
+Por isso, os endereços em `index.html` têm uma versão (`?v=AAAAMMDDhhmm`).
+Ao publicar uma atualização, troque essa versão para forçar o download dos arquivos novos:
+
+```bash
+sed -i -E "s/\?v=[0-9]+/?v=$(date +%Y%m%d%H%M)/g" index.html
+```
+
+Se ainda aparecer a versão antiga, recarregue com `Ctrl+Shift+R` (`Cmd+Shift+R` no Mac).
