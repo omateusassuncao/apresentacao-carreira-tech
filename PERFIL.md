@@ -19,7 +19,6 @@ depois reflita no `index.html`.
 | Idiomas | Português e inglês (nativo ou bilíngue) | Slides 2 e 7 |
 | LinkedIn | [/in/mateusvassuncao](https://www.linkedin.com/in/mateusvassuncao/) | Encerramento |
 | GitHub | [@omateusassuncao](https://github.com/omateusassuncao) (bio: Power Platform Specialist) | Encerramento |
-| X / Twitter | [@omateusvieira](https://x.com/omateusvieira) | Encerramento |
 
 ## Resumo (LinkedIn, texto original)
 
@@ -124,18 +123,18 @@ Queda global do Microsoft 365. Os dados vêm da imprensa, porque a matéria da U
 | 6 | Da engenharia ao código | `timeline` | Transição de carreira |
 | 7 | Até aqui | `stats` | Transição de carreira |
 | 8 | Como é desenvolver software hoje? | `list` | Desenvolvimento hoje |
-| 9 | Vamos criar um app agora! | `code` + Copiar | Interação: prompt ao vivo |
-| 10 | Mas e… o meio ambiente? | `columns` | IA: meio ambiente |
-| 11 | Mas e… a bolha da IA? É real? (IA hoje, bug do milênio, bolha da internet, 2008) | `crises` | IA: bolha e crises do passado |
-| 12 | Crises vêm e vão. O preparo fica. | `steps` | Novas tecnologias e crises sempre virão → estudar |
-| 13 | Como é o meu trabalho hoje? (dia a dia + limite de tokens) | `columns` | Trabalho hoje |
+| 9 | Como é o meu trabalho hoje? (dia a dia + limite de tokens) | `columns` | Trabalho hoje |
+| 10 | Vamos criar um app agora! | `code` + Copiar | Interação: prompt ao vivo |
+| 11 | Mas e… o meio ambiente? | `columns` | IA: meio ambiente |
+| 12 | Mas e… a bolha da IA? É real? (IA hoje, bug do milênio, bolha da internet, 2008) | `crises` | IA: bolha e crises do passado |
+| 13 | Crises vêm e vão. O preparo fica. | `steps` | Novas tecnologias e crises sempre virão → estudar |
 | 14 | Perguntas? | `section` | Perguntas |
 | 15 | A história é cíclica | `timeline` | Fechamento |
 | 16 | O que mais importa: estudar | `list` | Fechamento |
 | 17 | Como ficou nosso app? | `code` + Copiar | Interação: ajustar o app |
 | 18 | Obrigado! | `cover end` | — |
 
-**Interação ao vivo:** nos slides 9 e 17, os trechos em amarelo `[...]` são preenchidos com ideias da turma. O botão **Copiar** copia o prompt inteiro.
+**Interação ao vivo:** nos slides 10 e 17, os trechos em amarelo `[...]` são preenchidos com ideias da turma. O botão **Copiar** copia o prompt inteiro.
 
 ## Fotos
 
