@@ -123,24 +123,24 @@ Queda global do Microsoft 365. Os dados vêm da imprensa, porque a matéria da U
 | # | Slide | Layout | Bloco do roteiro |
 |---|---|---|---|
 | 1 | Capa | `cover` | — |
-| 2 | Olá, eu sou o Mateus Vieira (quem sou eu + hobbies + família) | `about` | Quem sou eu / Minha família (5 min) |
+| 2 | Olá, eu sou o Mateus Vieira (quem sou eu + hobbies + família; selo 📢 com foto surpresa) | `about` | Quem sou eu / Minha família (5 min) |
 | 3 | Quando comecei a trabalhar? | `timeline` | Quem sou eu |
 | 4 | 2016: como era trabalhar? (sem home office, telefone fixo, sem IA × hoje) | `compare` | Começar a trabalhar (5 min) |
-| 5 | Meu trabalho e a virada (o que eu fazia + como resolvi mudar + a decisão) | `columns` + citação | Começar a trabalhar / Transição de carreira |
-| 6 | Da engenharia ao código | `timeline` | Transição de carreira |
-| 7 | Até aqui | `stats` | Transição de carreira |
-| 8 | Como é desenvolver software hoje? (Claude Code, agentes autônomos, AWS + Claude, automações, low-code, humano no comando) | `tools` | Desenvolvimento hoje |
-| 9 | Como é o meu trabalho hoje? (o que um Tech Lead faz + projetos em que participei + Itaú também faz) | `columns` (3) | Trabalho hoje |
-| 10 | Vamos criar um app agora! | `code` + Copiar | Interação: prompt ao vivo |
-| 11 | Mas e… os problemas da IA? (meio ambiente, alucinações, deepfakes, privacidade, viés, pensar por você) | `tools` | IA: problemas e meio ambiente |
-| 12 | Mas e… a bolha da IA? É real? (timeline 1999→2000, 2000, 2008, hoje, 20?? + "a história é cíclica") | `timeline` | IA: bolha e crises do passado |
-| 13 | Crises vêm e vão. O preparo fica. | `steps` | Novas tecnologias e crises sempre virão → estudar |
-| 14 | Perguntas? | `section` | Perguntas |
-| 15 | Como ficou nosso app? (só o botão para claude.ai) | `applink` | Interação: ajustar o app |
-| 16 | Dicas para começar hoje (estudar grátis, onde se formar, ferramentas, por onde começar, canais, pratique) | `tips` | Fechamento: estudar e se preparar |
-| 17 | Obrigado! (contatos + foto) | `cover end` | — |
+| 5 | Meu trabalho e a virada (o que eu fazia + como resolvi mudar + a decisão) | `columns` + citação | Começar a trabalhar / Transição |
+| 6 | Eu mudei a trajetória da minha carreira (parcial, até 2023; capivara noiva entre 2016 e 2020) | `timeline` | Transição de carreira |
+| 7 | Eu mudei a trajetória da minha carreira (completa) | `timeline` | Transição de carreira |
+| 8 | Como é desenvolver software hoje? (Claude Code, agentes, AWS + Claude, automações, humano no comando, curiosidade com link) | `tools` | Desenvolvimento hoje |
+| 9 | Vamos criar um app agora! (prompt + Copiar + botão ✦ claude.ai) | `code` | Interação: prompt ao vivo |
+| 10 | Como é o meu trabalho hoje? (Tech Lead + projetos em que participei + Itaú também faz) | `columns` (3) | Trabalho hoje |
+| 11 | Perguntas? | `section` | Perguntas |
+| 12 | Mas e… os problemas da IA? (capivara de jaleco no card "Pensar por você") | `tools` | IA: problemas e meio ambiente |
+| 13 | Mas e… a bolha da IA? É real? (timeline + "a história é cíclica") | `timeline` | IA: bolha e crises do passado |
+| 14 | Crises passam. O conhecimento fica. | `steps` | Estudar e se preparar |
+| 15 | Perguntas? | `section` | Perguntas |
+| 16 | Como ficou nosso app? (botão ✦ claude.ai) | `applink` | Interação: ajustar o app |
+| 17 | Obrigado! (contatos + foto + capivara comemorando) | `cover end` | — |
 
-**Interação ao vivo:** no slide 10, os trechos em amarelo `[...]` são preenchidos com ideias da turma e o botão **Copiar** copia o prompt. Os slides 10 e 15 têm o botão ✦ **Abrir o resultado**, que abre https://claude.ai/ em nova aba.
+**Interação ao vivo:** no slide 9, os trechos em amarelo `[...]` são preenchidos com ideias da turma e o botão **Copiar** copia o prompt. Os slides 9 e 16 têm o botão ✦ **Abrir o resultado**, que abre https://claude.ai/ em nova aba.
 
 ## Fotos
 
