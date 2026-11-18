@@ -122,7 +122,7 @@ Queda global do Microsoft 365. Os dados vêm da imprensa, porque a matéria da U
 | 5 | Meu trabalho e a virada (o que eu fazia + como resolvi mudar + a decisão) | `columns` + citação | Começar a trabalhar / Transição de carreira |
 | 6 | Da engenharia ao código | `timeline` | Transição de carreira |
 | 7 | Até aqui | `stats` | Transição de carreira |
-| 8 | Como é desenvolver software hoje? | `list` | Desenvolvimento hoje |
+| 8 | Como é desenvolver software hoje? (Claude Code, agentes autônomos, AWS + Claude, automações, low-code, humano no comando) | `tools` | Desenvolvimento hoje |
 | 9 | Como é o meu trabalho hoje? (dia a dia + limite de tokens) | `columns` | Trabalho hoje |
 | 10 | Vamos criar um app agora! | `code` + Copiar | Interação: prompt ao vivo |
 | 11 | Mas e… o meio ambiente? | `columns` | IA: meio ambiente |

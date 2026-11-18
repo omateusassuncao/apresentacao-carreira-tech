@@ -463,6 +463,31 @@ blockquote.decision {
   border-radius: 0 calc(var(--u) * 1) calc(var(--u) * 1) 0;
   background: color-mix(in srgb, var(--accent-2) 8%, transparent);
 }
+/* Ferramentas: grade 3×2 de cards com ícone */
+.tools {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: calc(var(--u) * 1.4);
+  margin-top: calc(var(--u) * .4);
+}
+.card.tool {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto 1fr;
+  column-gap: calc(var(--u) * 1.2);
+  row-gap: calc(var(--u) * .5);
+  align-items: start;
+  padding: calc(var(--u) * 1.6) calc(var(--u) * 1.8);
+}
+.tool-icon { grid-row: span 2; font-size: calc(var(--u) * 3); line-height: 1; }
+.card.tool h3 { font-size: calc(var(--u) * 1.95); color: var(--text); line-height: 1.2; }
+.card.tool p { font-size: calc(var(--u) * 1.45); line-height: 1.4; color: var(--muted); }
+.card.tool p strong { color: var(--accent); }
+.card.tool.is-key { border-color: var(--accent-2); box-shadow: 0 0 0 1px var(--accent-2), var(--glow); }
+.card.tool.is-key h3 { color: var(--accent-2); }
+[data-layout="tools"] h2 { font-size: calc(var(--u) * 3.8); }
+[data-layout="tools"] .takeaway { margin-top: calc(var(--u) * .8); font-size: calc(var(--u) * 1.7); }
+
 /* Antes × hoje: três cards lado a lado */
 .compare {
   display: grid;
@@ -853,6 +878,8 @@ figcaption {
   .hobbies { grid-template-columns: 1fr 1fr; }
   .crises { grid-template-columns: 1fr; }
   .compare { grid-template-columns: 1fr; }
+  .tools { grid-template-columns: 1fr; }
+  .card.tool p { font-size: calc(var(--u) * 1.8); }
   .card.then-now p { font-size: calc(var(--u) * 1.8); }
   .card.crisis p, .step-text small { font-size: calc(var(--u) * 1.8); }
   .gallery { grid-auto-flow: row; grid-auto-columns: auto; }
