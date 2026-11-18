@@ -513,6 +513,28 @@ blockquote.decision {
 }
 .card.tool.risk .risk-fix::before { content: "→ "; }
 
+/* Capivara de óculos (clique e segure → foto surpresa) */
+.card.tool { position: relative; }
+.capy {
+  position: absolute;
+  right: calc(var(--u) * 1.2);
+  bottom: calc(var(--u) * 1);
+  width: calc(var(--u) * 5.2);
+  line-height: 0;
+  border: 0;
+  filter: drop-shadow(0 calc(var(--u) * .3) calc(var(--u) * .4) rgba(0, 0, 0, .35));
+  transform-origin: 50% 100%;
+}
+.capy svg { width: 100%; height: auto; }
+.capy:hover { animation: capy-wiggle .5s ease-in-out; }
+@keyframes capy-wiggle {
+  0%, 100% { transform: rotate(0); }
+  30% { transform: rotate(-8deg); }
+  70% { transform: rotate(6deg); }
+}
+@media (prefers-reduced-motion: reduce) { .capy:hover { animation: none; } }
+.card.tool.risk:has(.capy) .risk-fix { padding-right: calc(var(--u) * 5); }
+
 /* Antes × hoje: três cards lado a lado */
 .compare {
   display: grid;
