@@ -483,6 +483,16 @@ blockquote.decision {
 .card.tool h3 { font-size: calc(var(--u) * 1.95); color: var(--text); line-height: 1.2; }
 .card.tool p { font-size: calc(var(--u) * 1.45); line-height: 1.4; color: var(--muted); }
 .card.tool p strong { color: var(--accent); }
+.card.tool p a {
+  color: var(--accent-2);
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: .2em;
+}
+.card.tool p a::after { content: " ↗"; }
+.card.tool p a:hover { color: var(--accent); }
+.card.tool p a:focus-visible { outline: 2px solid var(--accent-2); outline-offset: 2px; border-radius: 2px; }
 .card.tool.is-key { border-color: var(--accent-2); box-shadow: 0 0 0 1px var(--accent-2), var(--glow); }
 .card.tool.is-key h3 { color: var(--accent-2); }
 [data-layout="tools"] h2 { font-size: calc(var(--u) * 3.8); }
