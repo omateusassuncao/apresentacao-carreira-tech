@@ -117,7 +117,7 @@ Queda global do Microsoft 365. Os dados vêm da imprensa, porque a matéria da U
 | # | Slide | Layout | Bloco do roteiro |
 |---|---|---|---|
 | 1 | Capa | `cover` | — |
-| 2 | Prazer, Mateus (quem sou eu + hobbies + família) | `about` | Quem sou eu / Minha família (5 min) |
+| 2 | Olá, eu sou o Mateus Vieira (quem sou eu + hobbies + família) | `about` | Quem sou eu / Minha família (5 min) |
 | 3 | Quando comecei a trabalhar? | `timeline` | Quem sou eu |
 | 4 | 2016: como era trabalhar? (ótimo × faltava + a decisão) | `columns` + citação | Começar a trabalhar (5 min) |
 | 5 | Começar de novo | `list` | Transição de carreira |
