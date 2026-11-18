@@ -100,7 +100,7 @@ depois reflita no `index.html`.
 - **Hobby:** marcenaria. Hobby nº 2: ouvir a professora Ana Flavia reclamar que os alunos bagunçam demais.
 - **Família:** Ana Flavia (professora da escola onde acontece a palestra) e dois gatos pretos e brancos.
 
-## Incidente usado no slide 17 (12/11/2026)
+## Incidente de 12/11/2026 (slide removido; mantido como referência para as perguntas)
 
 Queda global do Microsoft 365. Os dados vêm da imprensa, porque a matéria da UOL não pôde ser lida automaticamente:
 - Começou por volta das 14h30 de 12/11, com falhas no Outlook, Teams, OneDrive e Copilot.
@@ -125,21 +125,17 @@ Queda global do Microsoft 365. Os dados vêm da imprensa, porque a matéria da U
 | 7 | Até aqui | `stats` | Transição de carreira |
 | 8 | Como é desenvolver software hoje? | `list` | Desenvolvimento hoje |
 | 9 | Vamos criar um app agora! | `code` + Copiar | Interação: prompt ao vivo |
-| 10 | Mas e…? | `section` | IA: ambiente e bolha |
-| 11 | A IA tem um custo ambiental | `columns` | IA: ambiente e bolha |
-| 12 | A bolha da IA é real? | `list` | IA: ambiente e bolha |
-| 13 | O bug do milênio | `list` | IA: ambiente e bolha |
-| 14 | A crise de 2008 | `list` | IA: ambiente e bolha |
-| 15 | Como é o meu trabalho hoje? | `list` | Trabalho hoje |
-| 16 | E o limite de tokens? | `columns` | Trabalho hoje |
-| 17 | E quando tudo cai? | `columns` | Trabalho hoje (queda do M365) |
-| 18 | Perguntas? | `section` | Perguntas |
-| 19 | A história é cíclica | `timeline` | Fechamento |
-| 20 | O que mais importa: estudar | `list` | Fechamento |
-| 21 | Como ficou nosso app? | `code` + Copiar | Interação: ajustar o app |
-| 22 | Obrigado! | `cover end` | — |
+| 10 | Mas e… o meio ambiente? | `columns` | IA: meio ambiente |
+| 11 | Mas e… a bolha da IA? É real? (IA hoje, bug do milênio, bolha da internet, 2008) | `crises` | IA: bolha e crises do passado |
+| 12 | Crises vêm e vão. O preparo fica. | `steps` | Novas tecnologias e crises sempre virão → estudar |
+| 13 | Como é o meu trabalho hoje? (dia a dia + limite de tokens) | `columns` | Trabalho hoje |
+| 14 | Perguntas? | `section` | Perguntas |
+| 15 | A história é cíclica | `timeline` | Fechamento |
+| 16 | O que mais importa: estudar | `list` | Fechamento |
+| 17 | Como ficou nosso app? | `code` + Copiar | Interação: ajustar o app |
+| 18 | Obrigado! | `cover end` | — |
 
-**Interação ao vivo:** nos slides 9 e 21, os trechos em amarelo `[...]` são preenchidos com ideias da turma. O botão **Copiar** copia o prompt inteiro.
+**Interação ao vivo:** nos slides 9 e 17, os trechos em amarelo `[...]` são preenchidos com ideias da turma. O botão **Copiar** copia o prompt inteiro.
 
 ## Fotos
 
