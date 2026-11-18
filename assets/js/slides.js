@@ -110,6 +110,75 @@
       : 'Último slide';
   }
 
+  /* ---------- Fotos ausentes → placeholder com o nome do arquivo ---------- */
+  Array.prototype.forEach.call(document.querySelectorAll('.photo img'), function (img) {
+    var fig = img.closest('.photo');
+    function missing() {
+      fig.setAttribute('data-src', img.getAttribute('src'));
+      fig.classList.add('is-empty');
+      img.remove();
+    }
+    if (img.complete && img.naturalWidth === 0) missing();
+    else img.addEventListener('error', missing);
+  });
+
+  /* ---------- Botão "Copiar" dos terminais ---------- */
+  Array.prototype.forEach.call(document.querySelectorAll('.copy-btn'), function (btn) {
+    btn.addEventListener('click', function () {
+      var pre = btn.closest('.terminal').querySelector('pre');
+      var text = pre.textContent;
+      function done(label) {
+        btn.textContent = label;
+        btn.classList.add('is-done');
+        setTimeout(function () { btn.textContent = 'Copiar'; btn.classList.remove('is-done'); }, 1800);
+      }
+      function fallback() {
+        var r = document.createRange();
+        r.selectNodeContents(pre);
+        var sel = window.getSelection();
+        sel.removeAllRanges();
+        sel.addRange(r);
+        done('Selecionado');
+      }
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(function () { done('Copiado!'); }, fallback);
+      } else {
+        fallback();
+      }
+    });
+  });
+
+  /* ---------- "Clique e segure": mostra uma foto enquanto o botão está pressionado ---------- */
+  var peekEls = document.querySelectorAll('[data-peek]');
+  if (peekEls.length) {
+    var overlay = document.createElement('div');
+    overlay.className = 'peek-overlay';
+    overlay.setAttribute('aria-hidden', 'true');
+    var peekImg = document.createElement('img');
+    peekImg.alt = '';
+    overlay.appendChild(peekImg);
+    document.body.appendChild(overlay);
+
+    var hidePeek = function () { overlay.classList.remove('is-visible'); };
+
+    Array.prototype.forEach.call(peekEls, function (el) {
+      new Image().src = el.getAttribute('data-peek'); // pré-carrega para aparecer na hora
+      el.addEventListener('pointerdown', function (e) {
+        if (e.button !== 0) return;
+        e.preventDefault();
+        peekImg.src = el.getAttribute('data-peek');
+        peekImg.alt = el.getAttribute('data-peek-alt') || '';
+        overlay.classList.add('is-visible');
+        if (el.setPointerCapture) el.setPointerCapture(e.pointerId);
+      });
+      ['pointerup', 'pointercancel', 'lostpointercapture'].forEach(function (type) {
+        el.addEventListener(type, hidePeek);
+      });
+      el.addEventListener('contextmenu', function (e) { e.preventDefault(); }); // toque longo no celular
+    });
+    window.addEventListener('blur', hidePeek);
+  }
+
   /* ---------- Eventos ---------- */
   btnNext.addEventListener('click', next);
   btnPrev.addEventListener('click', prev);
@@ -122,7 +191,10 @@
     if (/INPUT|TEXTAREA|SELECT/.test(tag)) return;
 
     switch (e.key) {
-      case 'ArrowRight': case 'ArrowDown': case 'PageDown': case 'Enter':
+      case 'Enter':
+        if (tag === 'BUTTON' || tag === 'A') return; // Enter em botão/link = clique
+        next(); break;
+      case 'ArrowRight': case 'ArrowDown': case 'PageDown':
         next(); break;
       case ' ':
         if (tag === 'BUTTON') return; // espaço em botão = clique

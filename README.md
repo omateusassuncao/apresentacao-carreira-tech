@@ -1,4 +1,6 @@
-# Apresentação — Carreira em Tecnologia
+# Carreira Tech e seu futuro!
+
+Palestra para alunos do ensino médio sobre carreira em tecnologia.
 
 Apresentação de slides feita em **HTML, CSS e JavaScript puros** (sem dependências nem build), publicada com o **GitHub Pages**.
 
@@ -36,6 +38,13 @@ Para criar um slide, duplique uma `<section>`; a ordem no arquivo é a ordem da 
 - `list` — título + tópicos
 - `columns` — duas colunas com cards
 - `stats` — números em destaque
+- `timeline` — linha do tempo (`<ol class="timeline">`, `li.is-now` destaca o marco atual)
+- `section` — divisória com texto gigante (`<p class="section-big">`)
+- `about` — texto + selos de hobbies (`.chips`) à esquerda e mosaico de fotos (`.mosaic`) à direita
+- `hobbies` — grade de cards com ícone (`.hobby`, `.hobby-icon`)
+- `gallery` — fotos lado a lado (`<figure class="photo"><img src="assets/img/fotos/…">`); se o arquivo não existir, aparece um quadro com o nome esperado
+
+Nos terminais, `<span class="tk-fill">[...]</span>` marca campos para preencher ao vivo e `<button class="copy-btn">Copiar</button>` copia o código.
 - `quote` — citação centralizada
 - `code` — janela de terminal com código
 - `image` — imagem + legenda (coloque os arquivos em `assets/img/`)
@@ -64,5 +73,6 @@ index.html            # slides
 assets/css/style.css  # visual (temas, layouts, impressão)
 assets/js/slides.js   # navegação, tema, tela cheia, notas
 assets/img/           # imagens
+PERFIL.md             # dados profissionais do autor e mapa dados → slides
 .nojekyll             # o Pages serve os arquivos como estão
 ```
