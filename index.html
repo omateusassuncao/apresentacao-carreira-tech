@@ -270,16 +270,48 @@ PJ = pessoa jurídica: em vez de carteira assinada (CLT), você abre uma empresa
       <!-- ==================== BLOCO 4 · DESENVOLVIMENTO HOJE ==================== -->
 
       <!-- 13. COMO É DESENVOLVER HOJE -->
-      <section class="slide" data-layout="list">
+      <section class="slide" data-layout="tools">
         <p class="eyebrow">04 · programar em 2026</p>
-        <h2>Como é desenvolver software hoje?</h2>
-        <ul class="bullets">
-          <li><strong>IA como parceira</strong>: a gente descreve, ela escreve, a gente revisa</li>
-          <li><strong>Low-code</strong>: criar apps arrastando blocos (Power Platform)</li>
-          <li><strong>Nuvem</strong>: sistemas rodando em data centers do mundo todo</li>
-          <li><strong>Trabalho em time</strong>: ninguém faz nada sozinho</li>
-        </ul>
-        <aside class="notes">Ferramentas que uso: Claude Code, Power Apps, Power Automate, Dynamics 365, Azure.
+        <h2>Como é desenvolver software <span class="hl">hoje</span>?</h2>
+        <div class="tools">
+          <div class="card tool">
+            <span class="tool-icon" aria-hidden="true">💬</span>
+            <h3>Programar conversando</h3>
+            <p>Com o <strong>Claude Code</strong> eu descrevo o que quero; a IA lê o projeto, escreve o código, roda os testes e corrige junto comigo</p>
+          </div>
+          <div class="card tool">
+            <span class="tool-icon" aria-hidden="true">🤖</span>
+            <h3>Agentes autônomos</h3>
+            <p>IAs que recebem uma <strong>missão</strong> e fazem várias etapas sozinhas: pesquisar, programar, testar e entregar</p>
+          </div>
+          <div class="card tool">
+            <span class="tool-icon" aria-hidden="true">☁️</span>
+            <h3>Nuvem + IA</h3>
+            <p>Sistemas rodando na <strong>AWS</strong>, em data centers do mundo todo, com o <strong>Claude</strong> integrado aos apps da empresa</p>
+          </div>
+          <div class="card tool">
+            <span class="tool-icon" aria-hidden="true">⚙️</span>
+            <h3>Automações</h3>
+            <p>Tarefa repetitiva vira <strong>fluxo automático</strong>: e-mails, relatórios e aprovações rodando sozinhos</p>
+          </div>
+          <div class="card tool">
+            <span class="tool-icon" aria-hidden="true">🧩</span>
+            <h3>Low-code</h3>
+            <p>Criar apps <strong>arrastando blocos</strong> com a Power Platform: foi assim que eu comecei</p>
+          </div>
+          <div class="card tool is-key">
+            <span class="tool-icon" aria-hidden="true">🧑‍💻</span>
+            <h3>O humano no comando</h3>
+            <p>A IA faz rápido; <strong>a gente decide</strong> o que fazer, revisa, testa e se responsabiliza</p>
+          </div>
+        </div>
+        <p class="takeaway">Curiosidade: esta apresentação foi feita com o Claude Code 😉</p>
+        <aside class="notes">Mensagem principal: hoje a gente programa "conversando" com a IA, mas quem decide e revisa é a pessoa.
+Claude Code: assistente de programação que roda no terminal/editor; entende o projeto inteiro, edita arquivos, roda comandos e testes. Esta apresentação (HTML, CSS e JavaScript) foi construída assim — mostrar no GitHub se der tempo.
+Agentes autônomos: em vez de responder uma pergunta, a IA recebe um objetivo e executa várias etapas, usando ferramentas (navegar, rodar código, abrir pull request). Ainda precisam de supervisão humana.
+AWS: a nuvem da Amazon. Dá para usar o Claude dentro da AWS (Amazon Bedrock) e integrar com os sistemas da empresa.
+Automações: Power Automate, scripts e agentes cuidando de tarefas repetitivas.
+Low-code: Power Apps e Power Platform — por onde eu entrei em tecnologia.
 A IA não tira a necessidade de entender: é preciso saber pedir, revisar e corrigir o que ela faz.</aside>
       </section>
 
@@ -324,7 +356,7 @@ O app precisa ter: <span class="tk-fill">[funcionalidade escolhida]</span>.
 Use visual moderno e colorido, funcione bem no celular
 e escreva todos os textos em português.</code></pre>
         </div>
-        <p class="app-link"><span class="mono">link do app →</span> <span class="tk-fill">[colar aqui depois de gerar]</span></p>
+        <p class="app-link"><a class="app-btn" href="https://claude.ai/" target="_blank" rel="noopener noreferrer"><svg class="app-btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l2.1 6.2 6.4 2.3-6.4 2.3L12 19.5l-2.1-6.2L3.5 11l6.4-2.3z"/><path d="M19 15.5l.8 2.2 2.2.8-2.2.8-.8 2.2-.8-2.2-2.2-.8 2.2-.8z"/></svg><span class="app-btn-text"><b>Abrir o resultado</b><small>claude.ai ↗</small></span></a></p>
         <aside class="notes">Pedir 2 ou 3 ideias para a turma e votar. Preencher os campos entre colchetes, copiar (botão Copiar) e rodar o prompt ao vivo.
 Enquanto gera, explicar o que está acontecendo. Vamos voltar a esse app no final!</aside>
       </section>
@@ -471,19 +503,13 @@ Com a IA é igual: quem entende os fundamentos usa a IA a seu favor, em vez de t
         <aside class="notes">Meu caminho foi ETEC + SENAI → aprendiz → universidade federal → pós. Nada disso foi "sorte": foi estudo e oportunidades aproveitadas.</aside>
       </section>
 
-      <!-- 26. INTERAÇÃO · AJUSTAR O APP -->
-      <section class="slide" data-layout="code">
+      <!-- INTERAÇÃO · COMO FICOU NOSSO APP -->
+      <section class="slide" data-layout="applink">
         <p class="eyebrow">// interação ao vivo</p>
         <h2>Como ficou nosso app? 🛠️</h2>
-        <div class="terminal">
-          <div class="terminal-bar"><span></span><span></span><span></span><em>ajustes.txt</em><button type="button" class="copy-btn">Copiar</button></div>
-<pre><code>Ajuste o app que você criou:
-1. <span class="tk-fill">[ajuste 1 pedido pela turma]</span>
-2. <span class="tk-fill">[ajuste 2 pedido pela turma]</span>
-3. Adicione um rodapé: "Feito ao vivo pela turma <span class="tk-fill">[turma]</span> · 2026".
-Mantenha tudo em um único arquivo HTML.</code></pre>
-        </div>
-        <aside class="notes">Abrir o app gerado no começo. Pedir para a turma: o que vocês mudariam? Escolher 2 ajustes, preencher e rodar.
+        <a class="app-btn is-big" href="https://claude.ai/" target="_blank" rel="noopener noreferrer"><svg class="app-btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l2.1 6.2 6.4 2.3-6.4 2.3L12 19.5l-2.1-6.2L3.5 11l6.4-2.3z"/><path d="M19 15.5l.8 2.2 2.2.8-2.2.8-.8 2.2-.8-2.2-2.2-.8 2.2-.8z"/></svg><span class="app-btn-text"><b>Abrir o resultado</b><small>claude.ai ↗</small></span></a>
+        <aside class="notes">Clicar no botão para abrir o claude.ai e mostrar o app gerado no começo da palestra.
+Pedir para a turma: o que vocês mudariam? Escolher 2 ajustes e pedir para a IA ao vivo (ex.: "Adicione um rodapé: Feito ao vivo pela turma ... · 2026").
 Mostrar o antes e depois: isso é o dia a dia de um dev — fazer, testar, ajustar.</aside>
       </section>
 
