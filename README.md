@@ -40,6 +40,7 @@ Para criar um slide, duplique uma `<section>`; a ordem no arquivo é a ordem da 
 - `stats` — números em destaque
 - `timeline` — linha do tempo (`<ol class="timeline">`, `li.is-now` destaca o marco atual)
 - `section` — divisória com texto gigante (`<p class="section-big">`)
+- `about` — texto + selos de hobbies (`.chips`) à esquerda e mosaico de fotos (`.mosaic`) à direita
 - `hobbies` — grade de cards com ícone (`.hobby`, `.hobby-icon`)
 - `gallery` — fotos lado a lado (`<figure class="photo"><img src="assets/img/fotos/…">`); se o arquivo não existir, aparece um quadro com o nome esperado
 
