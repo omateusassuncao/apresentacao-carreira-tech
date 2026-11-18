@@ -535,6 +535,35 @@ blockquote.decision {
 @media (prefers-reduced-motion: reduce) { .capy:hover { animation: none; } }
 .card.tool.risk:has(.capy) .risk-fix { padding-right: calc(var(--u) * 5); }
 
+/* Timeline com descrições mais longas */
+.timeline-rich { gap: calc(var(--u) * 2); }
+.timeline-rich .tl-role { font-size: calc(var(--u) * 1.8); }
+.timeline-rich .tl-org { font-size: calc(var(--u) * 1.45); line-height: 1.4; }
+.timeline-rich .tl-org strong { color: var(--accent); }
+.timeline-rich .tl-org code { font-size: .85em; }
+[data-layout="timeline"] .takeaway { margin-top: calc(var(--u) * 2.4); }
+
+/* Dicas: grade 3×2 de cards com listas curtas */
+.tips {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: calc(var(--u) * 1.3);
+  margin-top: calc(var(--u) * .4);
+}
+.card.tip { padding: calc(var(--u) * 1.4) calc(var(--u) * 1.7); }
+.card.tip h3 { font-size: calc(var(--u) * 1.8); color: var(--text); margin-bottom: calc(var(--u) * .7); }
+.card.tip ul { list-style: none; margin: 0; padding: 0; display: grid; gap: calc(var(--u) * .45); }
+.card.tip li {
+  position: relative;
+  padding-left: calc(var(--u) * 1.5);
+  font-size: calc(var(--u) * 1.35);
+  line-height: 1.35;
+  color: var(--muted);
+}
+.card.tip li::before { content: "▹"; position: absolute; left: 0; color: var(--accent-2); font-family: var(--font-mono); }
+.card.tip li b { color: var(--accent); font-weight: 700; }
+[data-layout="tips"] h2 { font-size: calc(var(--u) * 3.8); }
+
 /* Antes × hoje: três cards lado a lado */
 .compare {
   display: grid;
@@ -973,6 +1002,10 @@ figcaption {
   .crises { grid-template-columns: 1fr; }
   .compare { grid-template-columns: 1fr; }
   .tools { grid-template-columns: 1fr; }
+  .tips { grid-template-columns: 1fr; }
+  .card.tip li { font-size: calc(var(--u) * 1.8); }
+  .timeline-rich .tl-role { font-size: calc(var(--u) * 2.1); }
+  .timeline-rich .tl-org { font-size: calc(var(--u) * 1.8); }
   .card.tool p { font-size: calc(var(--u) * 1.8); }
   .card.then-now p { font-size: calc(var(--u) * 1.8); }
   .card.crisis p, .step-text small { font-size: calc(var(--u) * 1.8); }

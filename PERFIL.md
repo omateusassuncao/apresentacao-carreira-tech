@@ -126,15 +126,14 @@ Queda global do Microsoft 365. Os dados vêm da imprensa, porque a matéria da U
 | 9 | Como é o meu trabalho hoje? (dia a dia + limite de tokens) | `columns` | Trabalho hoje |
 | 10 | Vamos criar um app agora! | `code` + Copiar | Interação: prompt ao vivo |
 | 11 | Mas e… os problemas da IA? (meio ambiente, alucinações, deepfakes, privacidade, viés, pensar por você) | `tools` | IA: problemas e meio ambiente |
-| 12 | Mas e… a bolha da IA? É real? (IA hoje, bug do milênio, bolha da internet, 2008) | `crises` | IA: bolha e crises do passado |
+| 12 | Mas e… a bolha da IA? É real? (timeline 1999→2000, 2000, 2008, hoje, 20?? + "a história é cíclica") | `timeline` | IA: bolha e crises do passado |
 | 13 | Crises vêm e vão. O preparo fica. | `steps` | Novas tecnologias e crises sempre virão → estudar |
 | 14 | Perguntas? | `section` | Perguntas |
-| 15 | A história é cíclica | `timeline` | Fechamento |
-| 16 | O que mais importa: estudar | `list` | Fechamento |
-| 17 | Como ficou nosso app? (só o botão para claude.ai) | `applink` | Interação: ajustar o app |
-| 18 | Obrigado! | `cover end` | — |
+| 15 | Como ficou nosso app? (só o botão para claude.ai) | `applink` | Interação: ajustar o app |
+| 16 | Dicas para começar hoje (estudar grátis, onde se formar, ferramentas, por onde começar, canais, pratique) | `tips` | Fechamento: estudar e se preparar |
+| 17 | Obrigado! (contatos + foto) | `cover end` | — |
 
-**Interação ao vivo:** no slide 10, os trechos em amarelo `[...]` são preenchidos com ideias da turma e o botão **Copiar** copia o prompt. Os slides 10 e 17 têm o botão ✦ **Abrir o resultado**, que abre https://claude.ai/ em nova aba.
+**Interação ao vivo:** no slide 10, os trechos em amarelo `[...]` são preenchidos com ideias da turma e o botão **Copiar** copia o prompt. Os slides 10 e 15 têm o botão ✦ **Abrir o resultado**, que abre https://claude.ai/ em nova aba.
 
 ## Fotos
 
