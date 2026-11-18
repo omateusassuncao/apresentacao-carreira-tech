@@ -535,6 +535,23 @@ blockquote.decision {
 @media (prefers-reduced-motion: reduce) { .capy:hover { animation: none; } }
 .card.tool.risk:has(.capy) .risk-fix { padding-right: calc(var(--u) * 5); }
 
+/* Capivara noiva na linha do tempo: em pé sobre a linha, entre o 1º e o 2º marco */
+.timeline .capy.capy-ring {
+  right: auto;
+  bottom: auto;
+  width: calc(var(--u) * 8);
+  left: calc(50% + var(--u) * 1.4 - var(--u) * 4);
+  top: calc(var(--u) * -5);
+  z-index: 2;
+}
+.capy-spark { animation: capy-spark 1.6s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+.capy-spark + .capy-spark { animation-delay: .8s; }
+@keyframes capy-spark {
+  0%, 100% { opacity: .2; transform: scale(.6); }
+  50% { opacity: 1; transform: scale(1.2); }
+}
+@media (prefers-reduced-motion: reduce) { .capy-spark { animation: none; } }
+
 /* Timeline com descrições mais longas */
 .timeline-rich { gap: calc(var(--u) * 2); }
 .timeline-rich .tl-role { font-size: calc(var(--u) * 1.8); }
@@ -1021,6 +1038,7 @@ figcaption {
     background: linear-gradient(180deg, var(--border), var(--accent)); }
   .timeline li { padding-top: 0; }
   .timeline li::before { left: calc(var(--u) * -3); top: calc(var(--u) * .4); }
+  .timeline .capy.capy-ring { left: auto; right: 0; top: calc(var(--u) * 1.5); width: calc(var(--u) * 7); }
   .tl-role { font-size: calc(var(--u) * 2.1); }
   .tl-org { font-size: calc(var(--u) * 1.8); }
   [data-layout~="cover"]::after { left: calc(var(--u) * 4); }
