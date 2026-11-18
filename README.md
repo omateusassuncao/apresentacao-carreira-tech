@@ -36,6 +36,7 @@ Para criar um slide, duplique uma `<section>`; a ordem no arquivo é a ordem da 
 - `list` — título + tópicos
 - `columns` — duas colunas com cards
 - `stats` — números em destaque
+- `timeline` — linha do tempo (`<ol class="timeline">`, `li.is-now` destaca o marco atual)
 - `quote` — citação centralizada
 - `code` — janela de terminal com código
 - `image` — imagem + legenda (coloque os arquivos em `assets/img/`)
@@ -64,5 +65,6 @@ index.html            # slides
 assets/css/style.css  # visual (temas, layouts, impressão)
 assets/js/slides.js   # navegação, tema, tela cheia, notas
 assets/img/           # imagens
+PERFIL.md             # dados profissionais do autor e mapa dados → slides
 .nojekyll             # o Pages serve os arquivos como estão
 ```
