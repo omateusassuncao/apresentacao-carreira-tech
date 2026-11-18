@@ -150,7 +150,8 @@ Queda global do Microsoft 365. Os dados vêm da imprensa, porque a matéria da U
 | Arquivo | Slide | Status |
 |---|---|---|
 | `assets/img/fotos/gatos.jpg` | 4 | ✅ convertido do HEIC enviado, sem metadados (EXIF/GPS) |
-| `assets/img/fotos/ana.jpg` | 4 | ⏳ falta o arquivo (enquanto isso aparece um quadro indicando o nome) |
+| `assets/img/fotos/ana.jpg` | 4 | ✅ enviado pelo autor, redimensionado e sem metadados |
+| `assets/img/fotos/gatos2.jpg` | 4 | ✅ enviado pelo autor, redimensionado e sem metadados |
 
 Escudos e outras fotos foram dispensados; os hobbies usam ícones nas cores dos times.
 
@@ -159,7 +160,7 @@ Escudos e outras fotos foram dispensados; os hobbies usam ícones nas cores dos 
 - [x] URL do LinkedIn
 - [x] Dados do LinkedIn (PDF)
 - [x] Roteiro da apresentação
-- [ ] Foto da Ana Flavia em `assets/img/fotos/ana.jpg`
+- [x] Foto da Ana Flavia em `assets/img/fotos/ana.jpg`
 - [ ] Nomes dos gatos (para as notas do slide 4)
 - [ ] Confirmar o nome da pós da FIAP (ver observação acima)
 - [ ] Antes da palestra: conferir números atuais de consumo de energia/água da IA, caso queira citá-los
