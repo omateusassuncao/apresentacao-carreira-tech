@@ -539,9 +539,9 @@ blockquote.decision {
 .timeline .capy.capy-ring {
   right: auto;
   bottom: auto;
-  width: calc(var(--u) * 8);
-  left: calc(50% + var(--u) * 1.4 - var(--u) * 4);
-  top: calc(var(--u) * -5);
+  width: calc(var(--u) * 4);
+  left: calc(50% + var(--u) * 1.4 - var(--u) * 2);
+  top: calc(var(--u) * -2.2);
   z-index: 2;
 }
 .capy-spark { animation: capy-spark 1.6s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
@@ -1038,7 +1038,7 @@ figcaption {
     background: linear-gradient(180deg, var(--border), var(--accent)); }
   .timeline li { padding-top: 0; }
   .timeline li::before { left: calc(var(--u) * -3); top: calc(var(--u) * .4); }
-  .timeline .capy.capy-ring { left: auto; right: 0; top: calc(var(--u) * 1.5); width: calc(var(--u) * 7); }
+  .timeline .capy.capy-ring { left: auto; right: 0; top: calc(var(--u) * 1.5); width: calc(var(--u) * 3.5); }
   .tl-role { font-size: calc(var(--u) * 2.1); }
   .tl-org { font-size: calc(var(--u) * 1.8); }
   [data-layout~="cover"]::after { left: calc(var(--u) * 4); }
