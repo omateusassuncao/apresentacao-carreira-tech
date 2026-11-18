@@ -92,37 +92,74 @@ depois reflita no `index.html`.
 4. *Proposta e análise econômica para automação da estação de tratamento de água do SAAE Nepomuceno*
 5. *Aplicação de veículos elétricos no meio rural: uma revisão*
 
+## Vida pessoal (informado pelo autor)
+
+- **Futebol:** palmeirense.
+- **Futebol americano:** torce para o Seattle Seahawks.
+- **Hobby:** marcenaria. Hobby nº 2: ouvir a professora Ana Flavia reclamar que os alunos bagunçam demais.
+- **Família:** Ana Flavia (professora da escola onde acontece a palestra) e dois gatos pretos e brancos.
+
+## Incidente usado no slide 22 (12/11/2026)
+
+Queda global do Microsoft 365. Os dados vêm da imprensa, porque a matéria da UOL não pôde ser lida automaticamente:
+- Começou por volta das 14h30 de 12/11, com falhas no Outlook, Teams, OneDrive e Copilot.
+- A Microsoft registrou como problema de conectividade no Exchange Online (EX1550543) e citou carga elevada em várias regiões. Descartou ataque.
+- Foram mais de 50 mil reclamações até as 18h, segundo uma das fontes. A instabilidade continuou em 13/11, com recuperação gradual.
+- Fontes: [UOL Tilt](https://www.uol.com.br/tilt/noticias/redacao/2026/11/12/microsoft-outlook-fica-fora-do-ar-e-afeta-usuarios-do-pacote-365.ghtm) · [Malwarebytes](https://www.malwarebytes.com/pt-br/blog/news/2026/11/worldwide-microsoft-365-outage-disrupts-outlook-sharepoint-teams-and-more) · [Investidor10](https://investidor10.com.br/noticias/outlook-fora-do-ar-microsoft-confirma-falha-global-de-varios-servicos-123863/) · [Canaltech](https://canaltech.com.br/apps/outlook-e-teams-fora-do-ar-servicos-da-microsoft-apresentam-instabilidade/)
+
 ---
 
-## Mapa dados → slides (estado atual)
+## Palestra: "Carreira Tech e seu futuro!"
 
-| # | Slide | Layout | Dados do perfil |
+**Público:** alunos do ensino médio. Tom leve, sem jargão; termos técnicos explicados nas notas (tecla `P`).
+
+| # | Slide | Layout | Bloco do roteiro |
 |---|---|---|---|
-| 1 | Capa | `cover` | nome, cargo, empresa (subtítulo ainda é placeholder) |
-| 2 | Prazer, Mateus | `list` | formação, especialidade, cargo, cidade, idiomas |
-| 3 | Da engenharia ao código | `timeline` | 7 marcos de 2011 a 2026 |
-| 4 | Uma carreira em números | `stats` | 10+ anos · 8 anos de Itaú · 6 anos de Power Platform · 5 publicações |
-| 5 | Base técnica | `columns` | formação + certificações |
-| 6 | Antes do código, a pesquisa | `list` | publicações, NE3 |
-| 7 | Em uma linha de código | `code` | papel, stack, soft skills, idiomas |
-| 8 | Obrigado! | `cover end` | GitHub, X, LinkedIn |
+| 1 | Capa | `cover` | — |
+| 2 | Prazer, Mateus | `list` | Quem sou eu (5 min) |
+| 3 | Quando não estou programando… | `hobbies` | Quem sou eu |
+| 4 | Ana Flavia e os gatos | `gallery` | Minha família |
+| 5 | Quando comecei a trabalhar? | `timeline` | Quem sou eu |
+| 6 | Eu, em código | `code` | Quem sou eu |
+| 7 | 2016 | `section` | Começar a trabalhar (5 min) |
+| 8 | Como era trabalhar | `columns` | Começar a trabalhar |
+| 9 | A decisão | `quote` | Começar a trabalhar |
+| 10 | Começar de novo | `list` | Transição de carreira |
+| 11 | Da engenharia ao código | `timeline` | Transição de carreira |
+| 12 | Até aqui | `stats` | Transição de carreira |
+| 13 | Como é desenvolver software hoje? | `list` | Desenvolvimento hoje |
+| 14 | Vamos criar um app agora! | `code` + Copiar | Interação: prompt ao vivo |
+| 15 | Mas e…? | `section` | IA: ambiente e bolha |
+| 16 | A IA tem um custo ambiental | `columns` | IA: ambiente e bolha |
+| 17 | A bolha da IA é real? | `list` | IA: ambiente e bolha |
+| 18 | O bug do milênio | `list` | IA: ambiente e bolha |
+| 19 | A crise de 2008 | `list` | IA: ambiente e bolha |
+| 20 | Como é o meu trabalho hoje? | `list` | Trabalho hoje |
+| 21 | E o limite de tokens? | `columns` | Trabalho hoje |
+| 22 | E quando tudo cai? | `columns` | Trabalho hoje (queda do M365) |
+| 23 | Perguntas? | `section` | Perguntas |
+| 24 | A história é cíclica | `timeline` | Fechamento |
+| 25 | O que mais importa: estudar | `list` | Fechamento |
+| 26 | Como ficou nosso app? | `code` + Copiar | Interação: ajustar o app |
+| 27 | Obrigado! | `cover end` | — |
 
-Todos os slides de perfil têm notas do apresentador (tecla `P`) com os detalhes
-que não couberam na tela.
+**Interação ao vivo:** nos slides 14 e 26, os trechos em amarelo `[...]` são preenchidos com ideias da turma. O botão **Copiar** copia o prompt inteiro.
 
-## Ideias para o roteiro
+## Fotos
 
-- **História da virada:** de engenheiro de automação e PMO para desenvolvedor,
-  a partir de um app em Power Apps feito dentro da área de planejamento (2020).
-- **Low-code como porta de entrada:** Power Platform → Dynamics 365 → Tech Lead.
-- **Liderança técnica:** Scrum Master → Tech Lead em CoE global → Tech Lead no Itaú.
-- **Base acadêmica:** pesquisa, ensino (professor, PROMAD) e liderança estudantil (NE3).
+| Arquivo | Slide | Status |
+|---|---|---|
+| `assets/img/fotos/gatos.jpg` | 4 | ✅ convertido do HEIC enviado, sem metadados (EXIF/GPS) |
+| `assets/img/fotos/ana.jpg` | 4 | ⏳ falta o arquivo (enquanto isso aparece um quadro indicando o nome) |
+
+Escudos e outras fotos foram dispensados; os hobbies usam ícones nas cores dos times.
 
 ## Pendências
 
 - [x] URL do LinkedIn
 - [x] Dados do LinkedIn (PDF)
-- [ ] Roteiro da apresentação (tema, público, evento, data, subtítulo da capa)
+- [x] Roteiro da apresentação
+- [ ] Foto da Ana Flavia em `assets/img/fotos/ana.jpg`
+- [ ] Nomes dos gatos (para as notas do slide 4)
 - [ ] Confirmar o nome da pós da FIAP (ver observação acima)
-- [ ] Decidir se o e-mail de contato aparece no slide final
-- [ ] Encaixar os slides de perfil no roteiro (ordem, cortes, slides novos)
+- [ ] Antes da palestra: conferir números atuais de consumo de energia/água da IA, caso queira citá-los
