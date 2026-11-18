@@ -426,6 +426,27 @@ blockquote footer {
 .hobby-icon.wood      { background: #6b4423; border-color: #c49a6c; }
 .hobby-icon.class     { background: var(--bg-2); border-color: var(--accent-3); }
 
+/* Citação em faixa, abaixo de outro conteúdo */
+blockquote.decision {
+  max-width: none;
+  margin-top: calc(var(--u) * 1);
+  padding: calc(var(--u) * 1.4) calc(var(--u) * 2.4);
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: calc(var(--u) * .4) calc(var(--u) * 2);
+  border-left: calc(var(--u) * .4) solid var(--accent-2);
+  border-radius: 0 calc(var(--u) * 1) calc(var(--u) * 1) 0;
+  background: color-mix(in srgb, var(--accent-2) 8%, transparent);
+}
+blockquote.decision p { font-size: calc(var(--u) * 1.95); line-height: 1.3; }
+blockquote.decision footer { margin: 0; font-size: calc(var(--u) * 1.3); }
+.slide:has(.decision) h2 { font-size: calc(var(--u) * 3.8); }
+.slide:has(.decision) .columns { margin-top: 0; }
+.slide:has(.decision) .card { padding-top: calc(var(--u) * 1.6); padding-bottom: calc(var(--u) * 1.6); }
+.slide:has(.decision) .card h3 { font-size: calc(var(--u) * 2.1); }
+.slide:has(.decision) .card .bullets { margin-top: calc(var(--u) * .4); gap: calc(var(--u) * .5); font-size: calc(var(--u) * 1.75); }
+
 /* Quem sou eu: texto + hobbies à esquerda, mosaico de fotos à direita */
 [data-layout="about"] {
   display: grid;

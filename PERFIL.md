@@ -99,7 +99,7 @@ depois reflita no `index.html`.
 - **Hobby:** marcenaria. Hobby nº 2: ouvir a professora Ana Flavia reclamar que os alunos bagunçam demais.
 - **Família:** Ana Flavia (professora da escola onde acontece a palestra) e dois gatos pretos e brancos.
 
-## Incidente usado no slide 19 (12/11/2026)
+## Incidente usado no slide 17 (12/11/2026)
 
 Queda global do Microsoft 365. Os dados vêm da imprensa, porque a matéria da UOL não pôde ser lida automaticamente:
 - Começou por volta das 14h30 de 12/11, com falhas no Outlook, Teams, OneDrive e Copilot.
@@ -118,29 +118,27 @@ Queda global do Microsoft 365. Os dados vêm da imprensa, porque a matéria da U
 | 1 | Capa | `cover` | — |
 | 2 | Prazer, Mateus (quem sou eu + hobbies + família) | `about` | Quem sou eu / Minha família (5 min) |
 | 3 | Quando comecei a trabalhar? | `timeline` | Quem sou eu |
-| 4 | 2016 | `section` | Começar a trabalhar (5 min) |
-| 5 | Como era trabalhar | `columns` | Começar a trabalhar |
-| 6 | A decisão | `quote` | Começar a trabalhar |
-| 7 | Começar de novo | `list` | Transição de carreira |
-| 8 | Da engenharia ao código | `timeline` | Transição de carreira |
-| 9 | Até aqui | `stats` | Transição de carreira |
-| 10 | Como é desenvolver software hoje? | `list` | Desenvolvimento hoje |
-| 11 | Vamos criar um app agora! | `code` + Copiar | Interação: prompt ao vivo |
-| 12 | Mas e…? | `section` | IA: ambiente e bolha |
-| 13 | A IA tem um custo ambiental | `columns` | IA: ambiente e bolha |
-| 14 | A bolha da IA é real? | `list` | IA: ambiente e bolha |
-| 15 | O bug do milênio | `list` | IA: ambiente e bolha |
-| 16 | A crise de 2008 | `list` | IA: ambiente e bolha |
-| 17 | Como é o meu trabalho hoje? | `list` | Trabalho hoje |
-| 18 | E o limite de tokens? | `columns` | Trabalho hoje |
-| 19 | E quando tudo cai? | `columns` | Trabalho hoje (queda do M365) |
-| 20 | Perguntas? | `section` | Perguntas |
-| 21 | A história é cíclica | `timeline` | Fechamento |
-| 22 | O que mais importa: estudar | `list` | Fechamento |
-| 23 | Como ficou nosso app? | `code` + Copiar | Interação: ajustar o app |
-| 24 | Obrigado! | `cover end` | — |
+| 4 | 2016: como era trabalhar? (ótimo × faltava + a decisão) | `columns` + citação | Começar a trabalhar (5 min) |
+| 5 | Começar de novo | `list` | Transição de carreira |
+| 6 | Da engenharia ao código | `timeline` | Transição de carreira |
+| 7 | Até aqui | `stats` | Transição de carreira |
+| 8 | Como é desenvolver software hoje? | `list` | Desenvolvimento hoje |
+| 9 | Vamos criar um app agora! | `code` + Copiar | Interação: prompt ao vivo |
+| 10 | Mas e…? | `section` | IA: ambiente e bolha |
+| 11 | A IA tem um custo ambiental | `columns` | IA: ambiente e bolha |
+| 12 | A bolha da IA é real? | `list` | IA: ambiente e bolha |
+| 13 | O bug do milênio | `list` | IA: ambiente e bolha |
+| 14 | A crise de 2008 | `list` | IA: ambiente e bolha |
+| 15 | Como é o meu trabalho hoje? | `list` | Trabalho hoje |
+| 16 | E o limite de tokens? | `columns` | Trabalho hoje |
+| 17 | E quando tudo cai? | `columns` | Trabalho hoje (queda do M365) |
+| 18 | Perguntas? | `section` | Perguntas |
+| 19 | A história é cíclica | `timeline` | Fechamento |
+| 20 | O que mais importa: estudar | `list` | Fechamento |
+| 21 | Como ficou nosso app? | `code` + Copiar | Interação: ajustar o app |
+| 22 | Obrigado! | `cover end` | — |
 
-**Interação ao vivo:** nos slides 11 e 23, os trechos em amarelo `[...]` são preenchidos com ideias da turma. O botão **Copiar** copia o prompt inteiro.
+**Interação ao vivo:** nos slides 9 e 21, os trechos em amarelo `[...]` são preenchidos com ideias da turma. O botão **Copiar** copia o prompt inteiro.
 
 ## Fotos
 
