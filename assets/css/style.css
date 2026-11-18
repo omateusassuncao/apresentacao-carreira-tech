@@ -912,3 +912,11 @@ figcaption {
   }
   .cursor::after { animation: none; }
 }
+
+/* Linha do tempo: marcos coloridos por fase (ex.: amarelo = Ambev, verde = Itaú hoje) */
+.timeline li.tl-yellow::before { background: #facc15; border-color: #facc15; box-shadow: 0 0 calc(var(--u) * 1) rgba(250, 204, 21, .45); }
+.timeline li.tl-yellow .tl-year { color: #facc15; }
+.timeline li.tl-green::before { background: var(--accent-2); border-color: var(--accent-2); box-shadow: var(--glow); }
+.timeline li.tl-green .tl-year { color: var(--accent-2); }
+:root[data-theme="light"] .timeline li.tl-yellow::before { background: #ca8a04; border-color: #ca8a04; }
+:root[data-theme="light"] .timeline li.tl-yellow .tl-year { color: #a16207; }
