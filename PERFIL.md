@@ -131,10 +131,10 @@ Queda global do Microsoft 365. Os dados vêm da imprensa, porque a matéria da U
 | 14 | Perguntas? | `section` | Perguntas |
 | 15 | A história é cíclica | `timeline` | Fechamento |
 | 16 | O que mais importa: estudar | `list` | Fechamento |
-| 17 | Como ficou nosso app? | `code` + Copiar | Interação: ajustar o app |
+| 17 | Como ficou nosso app? (só o botão para claude.ai) | `applink` | Interação: ajustar o app |
 | 18 | Obrigado! | `cover end` | — |
 
-**Interação ao vivo:** nos slides 10 e 17, os trechos em amarelo `[...]` são preenchidos com ideias da turma. O botão **Copiar** copia o prompt inteiro.
+**Interação ao vivo:** no slide 10, os trechos em amarelo `[...]` são preenchidos com ideias da turma e o botão **Copiar** copia o prompt. Os slides 10 e 17 têm o botão ✦ **Abrir o resultado**, que abre https://claude.ai/ em nova aba.
 
 ## Fotos
 

@@ -759,8 +759,55 @@ blockquote.decision footer { margin: 0; font-size: calc(var(--u) * 1.3); }
 .copy-btn:hover { filter: brightness(1.1); }
 .copy-btn:focus-visible { outline: 2px solid var(--accent-2); outline-offset: 2px; }
 .copy-btn.is-done { background: var(--accent-2); }
-.app-link { font-size: calc(var(--u) * 1.8); margin-top: calc(var(--u) * 1); }
-.app-link .tk-fill { font-family: var(--font-mono); }
+.app-link { margin-top: calc(var(--u) * 1.2); }
+
+/* Botão-link para abrir o resultado (claude.ai) */
+.app-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: calc(var(--u) * 1.2);
+  padding: calc(var(--u) * 1) calc(var(--u) * 2) calc(var(--u) * 1) calc(var(--u) * 1.2);
+  border-radius: 999px;
+  text-decoration: none;
+  color: #0b0f14;
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+  box-shadow: var(--glow), var(--shadow);
+  transition: transform .15s var(--ease), filter .15s;
+}
+:root[data-theme="light"] .app-btn { color: #ffffff; }
+.app-btn:hover { transform: translateY(-2px); filter: brightness(1.08); }
+.app-btn:active { transform: scale(.97); }
+.app-btn:focus-visible { outline: 3px solid var(--text); outline-offset: 3px; }
+.app-btn-icon {
+  flex: none;
+  width: calc(var(--u) * 3.6);
+  height: calc(var(--u) * 3.6);
+  padding: calc(var(--u) * .7);
+  border-radius: 50%;
+  background: #0b0f14;
+  fill: var(--accent-2);
+}
+.app-btn-text { display: flex; flex-direction: column; line-height: 1.15; }
+.app-btn-text b { font-size: calc(var(--u) * 1.9); font-weight: 800; }
+.app-btn-text small { font-family: var(--font-mono); font-size: calc(var(--u) * 1.3); opacity: .8; }
+
+/* Slide só com o botão, grande e centralizado */
+[data-layout="applink"] { align-items: center; text-align: center; }
+.app-btn.is-big {
+  margin-top: calc(var(--u) * 4);
+  gap: calc(var(--u) * 2);
+  padding: calc(var(--u) * 1.8) calc(var(--u) * 4) calc(var(--u) * 1.8) calc(var(--u) * 2);
+  text-align: left;
+  animation: app-pulse 2.4s ease-in-out infinite;
+}
+.app-btn.is-big .app-btn-icon { width: calc(var(--u) * 7); height: calc(var(--u) * 7); padding: calc(var(--u) * 1.4); }
+.app-btn.is-big .app-btn-text b { font-size: calc(var(--u) * 3.4); }
+.app-btn.is-big .app-btn-text small { font-size: calc(var(--u) * 2); }
+@keyframes app-pulse {
+  0%, 100% { box-shadow: var(--shadow), 0 0 0 0 color-mix(in srgb, var(--accent) 45%, transparent); }
+  50%      { box-shadow: var(--shadow), 0 0 0 calc(var(--u) * 1.6) color-mix(in srgb, var(--accent) 0%, transparent); }
+}
+@media (prefers-reduced-motion: reduce) { .app-btn.is-big { animation: none; } }
 
 /* Incidente */
 .card.incident { border-color: color-mix(in srgb, #f87171 55%, var(--border)); }

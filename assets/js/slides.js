@@ -192,7 +192,7 @@
 
     switch (e.key) {
       case 'Enter':
-        if (tag === 'BUTTON') return; // Enter em botão = clique
+        if (tag === 'BUTTON' || tag === 'A') return; // Enter em botão/link = clique
         next(); break;
       case 'ArrowRight': case 'ArrowDown': case 'PageDown':
         next(); break;
